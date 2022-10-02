@@ -1,0 +1,19 @@
+from 'react'; import PropTypes from 'prop-types'; /f Single List Item const WrappedSingleListitem
+=({
+index, isselected, onClickHandler, text, \})
+⇒{
+return (
+<11
+style
+={{
+backgroundColor: isselected ? 'green' : 'red'
+}}
+anclirk
+={
+onclickHandler(index)
+}
+import React, \{ usestate, useEffect, memo \} from 'react'; import Proptypes from 'prop-types'; 11 single list item const Wrappedsinglelistrtem
+=
+(f index, isselected, onclickHandler, text, 1)
+⇒
+\{ return (
